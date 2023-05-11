@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin:0;
+    /* background-color: #810955; */
+    text-align:center;
+}
+h1 {
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+    color: #487575;
+    font-weight: strong;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #487575;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 1000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.profile{
+    text-align: center;
+    margin: 100px auto 50px auto;
+    width: 50%;
+}
+
+.contact-me{
+    text-align: center;
+    margin: 100px auto 100px auto;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(10, 11, 11);
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.drawing{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.Cycle{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.top-contianer{
+    padding-top:200px;
+    background-color: #98d4e7;
+    position:relative;
+    /* margin: 500px; */
+}
+.middle-contianer{
+    width: 200px;
+    height: 200px;
+    background-color: #610C63;
+}
+.bottom-container{
+    padding-top: 10px;
+    background-color: #8fd9dc;
+    position: relative;
+}
+.top{
+    position:absolute;
+    right:400px;
+    top:150px;
+}
+
+.bottom{
+    position:absolute;
+    /* right:20px; */
+    bottom:250px;
+}
